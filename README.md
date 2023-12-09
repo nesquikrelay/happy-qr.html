@@ -15,6 +15,8 @@ Based on six-two's standalone offline 'HTML5 QR code generator' (https://github.
 
 'qr_10.html', 'qr_20.html', 'qr_30.html', and 'qr_40.html' are identical. The only difference between them are unique titles and headers to easily denote size (line 9 and 138 respectively), and CSS height/width properties at lines 123/124.
 
+** Note: the CSS height and width percentages applied to draw QR codes at different sizes are relative to the resolution of the display. As they are, they are optimized for 1080p.
+
 ## Changes to repo
 - 'tinyqr.html' has been removed.
 - 'special.html' has been removed.
